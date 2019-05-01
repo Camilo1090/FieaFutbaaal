@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionAddForce.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionMovementDrag.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionTurn.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionUpdatePosition.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionUpdateTargetRotation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)AudioManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)BoxCollider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CircleCollider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Collider.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Collision.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)CollisionManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Dog.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)InputManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Pusher.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionCollision.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionInput.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Sheep.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)GameObject.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)SheepSpawner.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Timer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)Transform.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionCollisionScore.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)MenuManager.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionInputPlayer.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionSpawn.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ScoreVolume.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionPlaySound.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionCollisionForce.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ReactionSheepPulse.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionSpawnSheep.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionPauseSound.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionResumeSound.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)ActionStopSound.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionAddForce.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionMovementDrag.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionTurn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionUpdatePosition.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionUpdateTargetRotation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)AudioManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)BoxCollider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CircleCollider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Collider.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Collision.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)CollisionManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Dog.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)InputManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Pusher.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionCollision.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionInput.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Sheep.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)GameObject.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SheepSpawner.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Timer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)Transform.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)SpriteTypeEnum.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionCollisionForce.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionCollisionScore.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)MenuManager.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionInputPlayer.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionSpawnSheep.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionSpawn.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ScoreVolume.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionPlaySound.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ReactionSheepPulse.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionPauseSound.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionResumeSound.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)ActionStopSound.h" />
+  </ItemGroup>
+</Project>
